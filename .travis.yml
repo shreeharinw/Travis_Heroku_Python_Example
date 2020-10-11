@@ -2,8 +2,7 @@ language: python
 deploy:
   provider: heroku
   api_key:
-    secure: "866d3523-e99c-4e45-bb15-eaa5d2cff6e6"
-  run: python hello_world_flask.py
+    secure: 7f08d322-7c00-4131-8072-ffc403ee12d9  
   on:
     all_branches: true
 python:
